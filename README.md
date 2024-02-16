@@ -1,13 +1,9 @@
 Easytext is a Python module created for learning and completing small-scale projects that involve text files.
-It provides convenient functions for managing text files without the complexity Python's built in system.
+It provides convenient functions for managing text files without the complexity of Python's built-in system.
 Use it to explore text file handling and get your project tasks done efficiently!
 
 
-				---------------------------------------------------
-
-									          Usage
-
-				---------------------------------------------------
+# Usage:
 
 Import the Easytext module in your Python script:
 
