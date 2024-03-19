@@ -1,14 +1,14 @@
 Metadata-Version: 2.1
 Name: Easytexts
-Version: 0.5.0
-Summary: Easytexts: Simplified text management for quick projects
+Version: 1.1.0
+Summary: Easytexts: Simplified text management for quick and simple projects
 Home-page: https://github.com/Katzover/Easytexts
 Author: Itamar Katzover
 Author-email: itamar43.katzover43@gmail.com
 Classifier: Development Status :: 4 - Beta
 Classifier: Programming Language :: Python :: 3
 Classifier: License :: OSI Approved :: MIT License
-Requires-Python: >=3.10, <4
+Requires-Python: >=3.10
 License-File: LICENSE.txt
 
 Easytexts: A Simple File Handler for Python
@@ -22,7 +22,7 @@ Usage:
 
 Import the easytexts module:
 
-	from Easytexts import *
+	from Easytexts.Easytexts import *
 
 
 Writing and Appending:
@@ -41,7 +41,7 @@ Example:
 	clear("my_file.txt", "This is the new content.\n")
 
 
-cide(file, text, log=False): Creates a new file and writes text to it, handling existing files gracefully, optionally logging the action.
+cide(file, text, log=False): Creates a new file and writes text to it, only if a file with the same name doesnt already exist, optionally logging the action.
 Example:
 
 	cide("new_file.txt", "Hello, world!\n")

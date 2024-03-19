@@ -9,7 +9,7 @@ Usage:
 
 Import the easytexts module:
 
-	from Easytexts import *
+	from Easytexts.Easytexts import *
 
 
 Writing and Appending:
@@ -28,7 +28,7 @@ Example:
 	clear("my_file.txt", "This is the new content.\n")
 
 
-cide(file, text, log=False): Creates a new file and writes text to it, handling existing files gracefully, optionally logging the action.
+cide(file, text, log=False): Creates a new file and writes text to it, only if a file with the same name doesnt already exist, optionally logging the action.
 Example:
 
 	cide("new_file.txt", "Hello, world!\n")
